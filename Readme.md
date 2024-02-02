@@ -86,8 +86,11 @@ Pour approfondir vos connaissances sur PostgreSQL, consultez [ce tutoriel sur Tu
 
 # Sauvegarder l'état actuel dans la branche version0
 git checkout main
+```
 git checkout -b version0
+```
 git push -u origin version0
+```
 
 # Retourner à la branche main
 git checkout main
@@ -96,5 +99,7 @@ git checkout main
 git checkout -b version1
 # Faites vos modifications puis...
 git add .
+```
 git commit -m "Début des travaux sur version1"
+```
 git push -u origin version1
