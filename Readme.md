@@ -79,6 +79,22 @@ DELETE http://localhost:8080/api/users/1
 Content-Type: application/json
 ```
 
+# Sauvegarder l'état actuel dans la branche version0
+git checkout main
+git checkout -b version0
+git push -u origin version0
+
+# Retourner à la branche main
+git checkout main
+
+# Créer et commencer le travail sur version1
+git checkout -b version1
+# Faites vos modifications puis...
+git add .
+git commit -m "Début des travaux sur version1"
+git push -u origin version1
+
+
 Utilisez l'extension REST Client de VS Code pour envoyer ces requêtes : [REST Client on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
 ## 4. Aller Plus Loin Avec PostgreSQL
