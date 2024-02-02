@@ -84,22 +84,34 @@ Utilisez l'extension REST Client de VS Code pour envoyer ces requêtes : [REST C
 
 Pour approfondir vos connaissances sur PostgreSQL, consultez [ce tutoriel sur Tutorialspoint](https://www.tutorialspoint.com/postgresql/postgresql_select_query.htm).
 
-# Sauvegarder l'état actuel dans la branche version0
+
+```markdown
+# Aller Plus Loin Avec PostgreSQL
+
+Pour approfondir vos connaissances sur PostgreSQL, consultez [ce tutoriel sur Tutorialspoint](https://www.tutorialspoint.com/postgresql/postgresql_select_query.htm).
+
+## Sauvegarder l'état actuel dans la branche version0
+
+```bash
 git checkout main
-```
 git checkout -b version0
-```
 git push -u origin version0
 ```
 
-# Retourner à la branche main
-git checkout main
+## Retourner à la branche main
 
-# Créer et commencer le travail sur version1
+```bash
+git checkout main
+```
+
+## Créer et commencer le travail sur version1
+
+```bash
 git checkout -b version1
 # Faites vos modifications puis...
 git add .
-```
 git commit -m "Début des travaux sur version1"
-```
 git push -u origin version1
+```
+```
+
