@@ -78,6 +78,11 @@ Content-Type: application/json
 DELETE http://localhost:8080/api/users/1
 Content-Type: application/json
 ```
+Utilisez l'extension REST Client de VS Code pour envoyer ces requêtes : [REST Client on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+
+## 4. Aller Plus Loin Avec PostgreSQL
+
+Pour approfondir vos connaissances sur PostgreSQL, consultez [ce tutoriel sur Tutorialspoint](https://www.tutorialspoint.com/postgresql/postgresql_select_query.htm).
 
 # Sauvegarder l'état actuel dans la branche version0
 git checkout main
@@ -93,10 +98,3 @@ git checkout -b version1
 git add .
 git commit -m "Début des travaux sur version1"
 git push -u origin version1
-
-
-Utilisez l'extension REST Client de VS Code pour envoyer ces requêtes : [REST Client on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
-
-## 4. Aller Plus Loin Avec PostgreSQL
-
-Pour approfondir vos connaissances sur PostgreSQL, consultez [ce tutoriel sur Tutorialspoint](https://www.tutorialspoint.com/postgresql/postgresql_select_query.htm).
